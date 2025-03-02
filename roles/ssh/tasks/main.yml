@@ -2,14 +2,14 @@
 ---
 # tasks file for ssh
 
-- name: Set port
+# - name: Set port
 
-- name: Enable 2FA
+# - name: Enable 2FA
 
-- name: Use up-to-date alogrithms
+# - name: Use up-to-date alogrithms
 
-- name: Prohibit root login
+# - name: Prohibit root login
 
-- name: prohibti password login
+# - name: prohibti password login
 
-- name: Configure fail2ban
+# - name: Configure fail2ban

@@ -9,12 +9,12 @@
   
 
 
-- name: Secure ssh
+# - name: Secure ssh
 
-- name: Set login definitions
+# - name: Set login definitions
 
-- name: Add bootloader password
+# - name: Add bootloader password
 
-- name: Configure password policies
+# - name: Configure password policies
 
-- name: Set firewall rules
+# - name: Set firewall rules
