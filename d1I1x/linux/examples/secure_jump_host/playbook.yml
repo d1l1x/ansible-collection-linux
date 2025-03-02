@@ -1,0 +1,9 @@
+---
+- name: Setup secure jump host
+  hosts: jumper
+  collections:
+    - d1I1x.linux
+  tasks:
+    - name: Import role secure_jump_host
+      ansible.builtin.import_role:
+        name: secure_jump_host

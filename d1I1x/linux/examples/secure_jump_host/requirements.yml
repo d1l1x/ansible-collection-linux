@@ -1,0 +1,4 @@
+collections:
+  - name: https://github.com/d1l1x/ansible-collection-linux
+    type: git
+    version: develop
