@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY requirements.yml .
 
-RUN apk add --no-cache python3 git \
+RUN apk add --no-cache python3 git openssh\
     && python3 -m venv venv \
     && source venv/bin/activate \
     && pip install --upgrade pip \
